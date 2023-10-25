@@ -1,0 +1,39 @@
+.top{
+    background-color: #60CCFB;
+    width: 800px;
+    height: 170px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 14px;
+    justify-content: space-between;
+
+}
+
+
+.middle{
+    background-color: #D897ED;
+    width: 800px;
+    height: 170px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 14px;
+    justify-content: space-around;
+}
+
+
+
+.bottom{
+    background-color: #FCFCF9;
+    width: 800px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    margin-left: 14px;
+    justify-content: space-between;
+}
+
+body{
+text-align: center;
+}
