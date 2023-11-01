@@ -3,37 +3,30 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
-
-div{
-    padding: 0 auto;
-    position: relative;
-    margin: 70px 300px 80px 200px;
-    border: solid;
-    border-color: black;
-    height: 90px;
-    width: 400px;
-
+body{
+    display: flex;
+}
+.box{
+    border: 3px solid black;
+    width: 300px;
+    min-height:120px ;
+    margin: 70px 100px;
 }
 
-p{
-    position: relative;
-    padding-left: 200px;
-    bottom: 6px;
-
+.upperbox{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 15px 10px
 }
-
 button{
-    position: relative;
-    bottom: 33px;
-    background-color:#FFD966;
-    padding: 7px 20px;
-    margin-left: 280px;
-    margin-bottom: 70px;
-}    
+    border: 2px black solid;
+    box-shadow: 2px 2px 2px;
+    padding: 10px ;
+    background-color: #FFD966;
+}
 
-h2{
-    position: relative;
-    top: 10px;
-    left: 6px;
+.lowerbox p{
+    padding-left: 10px;
 }

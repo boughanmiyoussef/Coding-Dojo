@@ -1,7 +1,5 @@
-incrementValue(element); { 
-    var counter = 0;
-    counter++;
-    console.log(counter);
+var msg=document.querySelector("#likes");
+function incrementValue(){
+    msg.innerHTML++;
+    console.log(msg)
 }
-
-
