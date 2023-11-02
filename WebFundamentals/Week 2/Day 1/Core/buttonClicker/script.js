@@ -1,13 +1,15 @@
-function changeMe(element){
-    if(element.innerText=="Login"){
-        element.innerText="Log out"
-        element.style.backgroundColor="red"
-    }else{
-        element.innerText="Login"
-    element.style.backgroundColor="green"
-    }
+/*console.log("hahahahahha")*/
+
+
+function alertme(){
+    alert("Ninja was liked")
 }
 
-function hide(button) {
+function removeme(button){
     button.remove()
 }
+
+
+
+
+
