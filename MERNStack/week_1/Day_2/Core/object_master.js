@@ -25,17 +25,45 @@ const pokemon = Object.freeze([
     ]);
     
 
-    // const evenly= pokemon.filter(element=>element.id % 3 == 0);
-    // const type=pokemon.filter(element => element.type=="type");
-    // const oneType=pokemon.filer(element =>element.types.length==1)
-    // const nameId=pokemon.filter(element=>element.id>99).map(element=>element.name)
-    // const poison=pokemon.filter(element=>element.length==1 && element.types[0]=="poison")
-    // const poison=pokemon.filter(element=>element.types[1]=="poison")
-    // const normal = pokemon.filter(element=>element.types.includes("normal"))
+    const evenly= pokemon.filter(element=>element.id % 3 == 0);
+    console.log(evenly);
+    
+    const type=pokemon.filter(element => element.types=="fire");
+    console.log(type);
+
+    const oneType=pokemon.filer(element =>element.types.length>1)
+    console.log(oneType);
+
+    const allNames=map(element=>element.name);
+    console.log(allNames);
+
+    const nameId=pokemon.filter(element=>element.id>99).map(element=>element.name);
+    console.log(nameId);
+
+    const poison=pokemon.filter(element=>element.types.length==1 && element.types[0]=="poison");
+    console.log(poison);
+
+    const flying=pokemon.filter(element=>element.types[1]=="flying");
+    console.log(flying);
+
+    const countNormal = pokemon.filter(element=>element.types.includes("normal")).length
+    console.log(countNormal);
+
+
+
+
 
 
 
     
+
+
+
+
+
+
+
+
 
 
 
