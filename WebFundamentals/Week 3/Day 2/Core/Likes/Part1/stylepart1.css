@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.box{
+    border: 3px solid black;
+    width: 300px;
+    min-height:120px ;
+    margin: 70px 100px;
+}
+
+.upperbox{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 15px 10px
+}
+button{
+    border: 2px black solid;
+    box-shadow: 2px 2px 2px;
+    padding: 10px ;
+    background-color: #FFD966;
+}
+
+.lowerbox p{
+    padding-left: 10px;
+}
