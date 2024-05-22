@@ -1,0 +1,3 @@
+select * from names;
+INSERT INTO names (name) VALUES ("Youssef") ;
+INSERT INTO names (name) VALUES ("Dojo");
