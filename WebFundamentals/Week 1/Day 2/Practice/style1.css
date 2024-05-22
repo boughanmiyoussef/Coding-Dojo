@@ -1,0 +1,26 @@
+*{
+    font-size: xx-large;
+}
+
+
+#search{
+    color: red ;
+}
+
+
+
+#account{
+    box-shadow: 10px 5px 5px black;
+    background-color: blue;
+    color: white;
+}
+
+
+
+#plus{
+    border-radius: 50%;
+    background-color: rgb(47, 180, 204);
+    color: white;
+
+
+}
