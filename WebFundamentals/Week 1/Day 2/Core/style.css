@@ -1,0 +1,26 @@
+
+
+
+.Top{
+    background-color: black;
+    width: 300px;
+    height: 60px;
+  
+  }
+  .Middle
+  {
+      background-color: red;
+      width: 300px;
+      height: 60px;
+  }
+  
+  .Bottom{
+      background-color: gold;
+      width: 300px;
+      height: 60px;
+  }
+  
+  body{
+      padding-left: 400px;
+  }
+  

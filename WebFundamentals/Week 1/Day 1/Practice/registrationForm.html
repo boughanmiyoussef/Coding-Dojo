@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <h1>Registration form</h1>
+    <form action="/register"> 
+
+    <div>
+      <label for="username"> First Name:</label>
+      <input type="text" id="username" placeholder="Enter You First Name"/>
+    </div>
+
+    <div>
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" value="">
+    </div>
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+    </div>
+
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password">
+
+    <div>
+        <label for="password"> Confirm Password:</label>
+        <input type="password" name="confirm password" id="">
+
+    </div>
+
+    <div>
+        <label for="date">Birthday:</label>
+        <input type="date" name="date of birth">
+    </div> 
+<p>Gender Identity:</p>
+    <div>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male"
+        value="male" >
+        <label for="female">Female</label> 
+        <input type="radio" name="gender" id="female">
+<label for="Non-Binary">Non-Binary</label>
+        <input type="radio" name="gender" id="Non-Binary">
+    </div>
+
+    <div>
+        <p>A short description about myself:</p>
+        <textarea name="description" id="" cols="30" rows="10"></textarea>
+    </div>
+
+    <div>
+        Favorite Language:
+        <select name="language" >
+        <option value="0">Java</option>
+        <option value="1">CSS</option>
+        <option value="2">JavaScript</option>
+        <option value="3">Python</option>
+    </select>
+    <br>
+
+    </div>
+
+    <div>
+        <input type="checkbox" name="offer" id="recieve">
+        <label for="recieve">Yes,I would like to receive periodoc emails</label>
+    </div>
+<div>
+    <input type="button" value="Create an account">
+    <label for="sumbit"></label>
+</div>
+</form>
+  </body>
+</html>
